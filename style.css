@@ -1,0 +1,49 @@
+/* Home Page */
+#main-header {
+    text-align: center;
+    background-color: #3ad9e5;
+}
+
+#man-cooking {
+    display: block;
+    width: 500px;
+    height: auto;
+    margin: auto;
+}
+
+#recipe-links li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    margin-top: 5px;
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+.recipe:visited, .recipe:link, .recipe:hover, .recipe:active {
+    color: black;
+    text-decoration: none;
+}
+
+/* Recipe Pages */
+.recipe-header {
+    background-color: #eeeeee;
+    margin: auto;
+    text-align: center;
+}
+
+.recipe-header img {
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: auto;
+}
+
+.description, .ingredients, .steps {
+    background: #eeeeee;
+    border-bottom: black solid 1px;
+}
+
+.home-link {
+    font-size: 18px;
+}
